@@ -3,7 +3,7 @@ MathJax = {
     tags: 'ams'
   }
 };
-window.MathJax = {
+MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']]
   }
