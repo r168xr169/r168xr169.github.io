@@ -1,0 +1,5 @@
+MathJax = {
+  tex:{
+    tags: 'ams'
+  }
+};
