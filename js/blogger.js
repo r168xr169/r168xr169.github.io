@@ -1,10 +1,6 @@
 MathJax = {
   tex:{
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
     tags: 'ams'
-  }
-};
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
   }
 };
