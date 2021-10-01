@@ -1,3 +1,94 @@
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+}
+
+/*表示非表示&#12288;初期状態;*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}  
+
+/*表示非表示&#12288;表示状態*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+  
+.hidden_box label {
+    padding: 15px;
+    font-weight: bold;
+    border: solid 2px black;
+    cursor :pointer;
+}
+  
+.hidden_box label:hover {
+    background: #800000;
+}  
+h3{
+  color: salmon;
+ }
+  
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px;
+}
+.tb01 th,
+.tb01 td{
+  padding: 10px;
+  border: solid 1px #ccc;
+  text-align:center;
+  box-sizing:border-box;
+}
+.tb01 th {
+  background: darkred;
+  color: #fff;
+  
+}
+@media screen and (max-width: 640px) {
+  .tb01 .head{
+    display:none;
+  }
+  .tb01 {
+    width: 100%;
+  }
+  .tb01 td,
+  .tb01 th{
+    display: block;
+    width: 100%;
+    border-bottom:none;
+  }
+  .tb01 td{
+    padding: 0px 12px 0 0;
+    display: block;
+    width: 100%;
+    line-height: 2.5;
+    text-align:left;
+  }
+  .tb01 td:before{
+    color: #fff;
+    content: attr(data-label);
+    font-weight: bold;
+    padding: 0px 10px;
+    display: inline;
+    background-color: darkred;
+    margin-right: 10px;
+    float: left;
+  }
+  .tb01 tr:last-child{
+    border-bottom: solid 1px #ccc;
+  }  
+}  
+strong{
+  color:gold;
+  font-weight: normal;
+}
+
 blockquote {
     position: relative;
     padding: 10px 15px 10px 50px;
