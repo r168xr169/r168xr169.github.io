@@ -94,8 +94,8 @@ blockquote {
     padding: 10px 15px 10px 50px;
     box-sizing: border-box;
     font-style: italic;
-    background: darkslateblue;
-    color: #555;
+    background: darkgray;
+    color: darkslateblue;
 }
 
 blockquote:before{
