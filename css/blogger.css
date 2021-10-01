@@ -3,7 +3,7 @@ blockquote {
     padding: 10px 15px 10px 50px;
     box-sizing: border-box;
     font-style: italic;
-    background: #efefef;
+    background: darkgray;
     color: #555;
 }
 
@@ -14,7 +14,7 @@ blockquote:before{
     left: -3px;
     content: "“";
     font-family: sans-serif;
-    color: #cfcfcf;
+    color: midnightblue;
     font-size: 90px;
     line-height: 1;
 }
