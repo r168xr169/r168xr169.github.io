@@ -1,3 +1,13 @@
+.array{
+   display: flex;
+   flex-wrap: wrap;
+   width: 600px;
+}
+.item{
+   width: calc(100% / 4);
+   padding: 20px 10px;
+   text-align: center;
+}
 .hidden_box {
     margin: 2em 0;/*前後の余白*/
     padding: 0;
