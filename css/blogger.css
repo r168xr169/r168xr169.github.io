@@ -40,6 +40,9 @@
 .hidden_box label:hover {
     background: #800000;
 }  
+h2{
+  margin-top: 10px;
+ }
 h3{
   color: salmon;
  }
