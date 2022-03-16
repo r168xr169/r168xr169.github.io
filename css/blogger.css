@@ -137,11 +137,4 @@ blockquote cite {
     font-size: 0.9em;
 }
 
-.post-body img{
-  padding: none !important;
-  border: none !important;
-  background: none !important;
-  -moz-box-shadow: 0px 0px 0px transparent !important;
-  -webkit-box-shadow: 0px 0px 0px transparent !important;
-  box-shadow: 0px 0px 0px transparent !important;
-}
+
